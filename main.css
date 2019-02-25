@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+@media (max-width: 420px) {
+  body {
+    font-size: .8em;
+  }
+}
