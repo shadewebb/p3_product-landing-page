@@ -61,7 +61,6 @@
   text-decoration: none;
   color: var(--button-color);
   background-color: var(--button-bg-color);
-  box-shadow: var(--button-shadow);
   padding: 0.625rem;
   border-radius: 10px;
 }
