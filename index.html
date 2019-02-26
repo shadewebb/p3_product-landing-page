@@ -6,41 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FCC - Product Landing Page</title>
+  <link href="main.css" type="text/css" rel="stylesheet">
 </head>
 
 <!--All id tags are used for FCC project specs only. BEM naming conventions used for CSS styling.-->
 
 <body>
-  <header class="header" id="header">
-    <img src="" alt="" class="header__img" id="header-img">
-    <nav class="header__nav" id="nav-bar">
-      <ul>
-        <!--Break BEM naming conventions here due to FCC project specs.-->
-        <li><a href="#main__article" class="nav-link">First Nav Item</a></li>
-        <li><a href="#main__purchasing" class="nav-link">Second Nav Item</a></li>
-        <li><a href="#main__closing" class="nav-link">Third Nav Item</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header class="header" id="header">
+      <img src="daily-deals-logo-new.png" alt="" class="header__img" id="header-img">
+      <nav class="nav" id="nav-bar">
+        <ul class="nav__list">
+          <!--Break BEM naming conventions here due to FCC project specs.-->
+          <li><a href="#main__article" class="nav-link">About Us</a></li>
+          <li><a href="#main__purchasing" class="nav-link">Food Dating</a></li>
+          <li><a href="#main__closing" class="nav-link">Weekly Deals</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main class="main">
-    <article id="main__article">
+    <main class="main">
+      <article id="article">
 
-    </article>
+      </article>
 
-    <section id="main__purchasing">
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input name="email" id="email" type="email" placeholder="Contact Email">
-        <input id="submit" type="submit" value="Submit">
-      </form>
-    </section>
+      <section id="purchasing">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Contact Email">
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      </section>
 
-    <section id="main__closing">
-      <video src="https://app.coverr.co/s3/mp4/Married-Man-Working.mp4" id="video" width="480px" controls>Video Error:
-        Not Displayed</video>
-    </section>
-  </main>
-
+      <section id="closing">
+        <video class="closing__video" src="https://app.coverr.co/s3/mp4/Married-Man-Working.mp4" id="video" controls>
+          <span>Video Error: Not Displayed<span>
+        </video>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
