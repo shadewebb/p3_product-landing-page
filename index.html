@@ -7,13 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FCC - Product Landing Page</title>
   <link href="main.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 </head>
 
 <!--All id tags are used for FCC project specs only. BEM naming conventions used for CSS styling.-->
 
 <body>
   <div class="container">
-    <header class="header" id="header">
+    <header class="header flex-container" id="header">
       <img src="daily-deals-logo-new.png" alt="" class="header__img" id="header-img">
       <nav class="nav" id="nav-bar">
         <ul class="nav__list">
@@ -25,9 +26,41 @@
       </nav>
     </header>
 
-    <main class="main">
-      <article id="article">
-
+    <main class="main flex-container">
+      <article id="article flex-container">
+        <div class="featured-item flex-container">
+          <img src="lunchable-pizza.png" alt="Lunchable Pizza Snack" class="featured-item__img">
+          <div class="featured-item__about flex-container">
+            <h2 class="featured-item__name">Oscar Mayer Lunchables Pepperoni Pizza - 4.3 oz Tray</h2>
+            <span class="featured-item__price">$0.79 /each</span>
+            <span class="featured-item__price">$5.00 /case</span>
+            <h3 class="featured-item__description-header">Product Information</h3>
+            <p class="featured-item__description">A classic for a reason, the Oscar Mayer Pepperoni Pizza is carefully
+              packed in a convenient box. The crust is delicately prepared with whole grain, and the pizza includes
+              only premium quality pork, chicken and beef used to make the succulent pepperoni.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="featured-item flex-container">
+          <img src="oscar-mayer-bacon.png" alt="Hardwood Smoked Bacon" class="featured-item__img">
+          <div class="featured-item__about flex-container">
+            <h2 class="featured-item__name">Oscar Mayer Naturally Hardwood Smoked Bacon, <br>16 oz Vacuum Pack</h2>
+            <span class="featured-item__price">$2.99 /each</span>
+            <h3 class="featured-item__description-header">Product Information</h3>
+            <p class="featured-item__description">At OSCAR MAYER, we believe you deserve the best. In fact, it’s one of the original principles we were founded on. Since our humble beginning more than a century ago, we’ve used the yellow band to signify our promise of the quality we put into everything we make.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="featured-item flex-container">
+          <img src="california-pizza-bbq-chicken.png" alt="Barbeque Chicken Pizza" class="featured-item__img">
+          <div class="featured-item__about flex-container">
+            <h2 class="featured-item__name">CALIFORNIA PIZZA KITCHEN Crispy Thin Crust BBQ Recipe Chicken Pizza, 14.7 oz</h2>
+            <span class="featured-item__price">$3.99 /each</span>
+            <h3 class="featured-item__description-header">Product Information</h3>
+            <p class="featured-item__description">This bite is bursting with zesty, sweet and tangy flavors. Our BBQ Recipe Chicken pizza has large pieces of succulent, seasoned white-meat chicken, zesty red onion, and smoked Gouda on our Crispy Thin Crust.</p>
+            <hr>
+          </div>
+        </div>
       </article>
 
       <section id="purchasing">
