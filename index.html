@@ -19,9 +19,9 @@
       <nav class="nav" id="nav-bar">
         <ul class="nav__list">
           <!--Break BEM naming conventions here due to FCC project specs.-->
-          <li><a href="#main__article" class="nav-link">About Us</a></li>
+          <li><a href="#main__article" class="nav-link">Featured</a></li>
           <li><a href="#main__purchasing" class="nav-link">Food Dating</a></li>
-          <li><a href="#main__closing" class="nav-link">Weekly Deals</a></li>
+          <li><a href="#main__closing" class="nav-link">Newsletter</a></li>
         </ul>
       </nav>
     </header>
@@ -54,7 +54,7 @@
         <div class="featured-item flex-container">
           <img src="california-pizza-bbq-chicken.png" alt="Barbeque Chicken Pizza" class="featured-item__img">
           <div class="featured-item__about flex-container">
-            <h2 class="featured-item__name">CALIFORNIA PIZZA KITCHEN Crispy Thin Crust BBQ Recipe Chicken Pizza, 14.7 oz</h2>
+            <h2 class="featured-item__name">California Pizza Kitchen Crispy Thin Crust BBQ Recipe Chicken Pizza, 14.7 oz</h2>
             <span class="featured-item__price">$3.99 /each</span>
             <h3 class="featured-item__description-header">Product Information</h3>
             <p class="featured-item__description">This bite is bursting with zesty, sweet and tangy flavors. Our BBQ Recipe Chicken pizza has large pieces of succulent, seasoned white-meat chicken, zesty red onion, and smoked Gouda on our Crispy Thin Crust.</p>
@@ -65,7 +65,9 @@
 
       <section id="purchasing">
         <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input name="email" id="email" type="email" placeholder="Contact Email">
+          <label for="email">Email: 
+            <input name="email" id="email" type="email" placeholder="Enter Contact Email">
+          </label>
           <input id="submit" type="submit" value="Submit">
         </form>
       </section>
