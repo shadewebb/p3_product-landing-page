@@ -120,9 +120,25 @@ hr {
   margin-top: 5px;
 }
 
+.product-dating__header-title {
+  font-family: var(--main-title-font);
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .closing__video {
   width: 100%;
   max-width: 30rem;
+}
+
+.purchasing__header-title {
+  font-family: var(--main-title-font);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom:10px;
 }
 
 /* Modifiers */

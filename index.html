@@ -19,8 +19,8 @@
       <nav class="nav" id="nav-bar">
         <ul class="nav__list">
           <!--Break BEM naming conventions here due to FCC project specs.-->
-          <li><a href="#main__article" class="nav-link">Featured</a></li>
-          <li><a href="#main__purchasing" class="nav-link">Food Dating</a></li>
+          <li><a href="#article" class="nav-link">Featured</a></li>
+          <li><a href="#product-dating" class="nav-link">Food Dating</a></li>
           <li><a href="#main__closing" class="nav-link">Newsletter</a></li>
         </ul>
       </nav>
@@ -63,7 +63,17 @@
         </div>
       </article>
 
+      <section id="product-dating">
+        <div class="product-dating__header">
+          <h1 class="product-dating__header-title">Common Myths About Product Dating</h1>
+        </div>
+        <video class="closing__video" src="https://app.coverr.co/s3/mp4/Scrolling-iPhone-XR.mp4" id="video" controls>
+          <span>Video Error: Not Displayed<span>
+        </video>
+      </section>
+      <hr>
       <section id="purchasing">
+        <h1 class="purchasing__header-title">Subscribe to Weekly Deals!</h1>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <label for="email">Email: 
             <input name="email" id="email" type="email" placeholder="Enter Contact Email">
@@ -72,11 +82,6 @@
         </form>
       </section>
 
-      <section id="closing">
-        <video class="closing__video" src="https://app.coverr.co/s3/mp4/Married-Man-Working.mp4" id="video" controls>
-          <span>Video Error: Not Displayed<span>
-        </video>
-      </section>
     </main>
   </div>
 </body>
